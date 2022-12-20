@@ -4,7 +4,7 @@ use anchor_lang::solana_program::system_program;
 declare_id!("64NXbocKn7bsha8f2asHEeNagb1XivwopeMttzZHTme");
 
 #[program]
-pub mod topciu_sorex {
+pub mod sorex {
     use super::*;
     pub fn store_score(ctx: Context<StoreScore>, highscore: u32) -> ProgramResult {
         let score: &mut Account<Score> = &mut ctx.accounts.score;

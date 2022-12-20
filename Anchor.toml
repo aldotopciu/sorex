@@ -1,5 +1,5 @@
 [programs.localnet]
-topciu_sorex = "64NXbocKn7bsha8f2asHEeNagb1XivwopeMttzZHTme"
+sorex = "64NXbocKn7bsha8f2asHEeNagb1XivwopeMttzZHTme"
 
 [registry]
 url = "https://anchor.projectserum.com"

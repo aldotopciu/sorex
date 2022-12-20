@@ -1,14 +1,14 @@
 import * as anchor from '@project-serum/anchor';
 import { Program } from '@project-serum/anchor';
-import { TopciuSorex } from '../target/types/topciu_sorex';
+import { Sorex } from '../target/types/sorex';
 import * as assert from "assert";
 
-describe('topciu-sorex', () => {
+describe('sorex', () => {
 
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.Provider.env());
 
-  const program = anchor.workspace.TopciuSorex as Program<TopciuSorex>;
+  const program = anchor.workspace.Sorex as Program<Sorex>;
 
   it('can store new highscore', async () => {
     const score = anchor.web3.Keypair.generate();
